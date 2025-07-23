@@ -1,0 +1,28 @@
+.settings-panel {
+  background-color: var(--secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.setting-group {
+  margin: 1rem 0;
+}
+
+.setting-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.theme-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.theme-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 4px;
+}

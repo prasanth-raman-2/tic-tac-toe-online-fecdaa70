@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.player-info {
+  font-size: 1rem;
+}
+
+.mode-toggle {
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
